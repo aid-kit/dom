@@ -1,0 +1,30 @@
+{
+  "name": "@aid-kit/dom",
+  "description": "Alows to manipulate the DOM in a more declarative way.",
+  "version": "0.0.1",
+  "private": false,
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sercrac07/helpers.git"
+  },
+  "scripts": {
+    "build": "tsup",
+    "lint": "tsc",
+    "test": "vite test"
+  },
+  "keywords": [
+    "helpers",
+    "dom"
+  ],
+  "author": "sercrac07",
+  "license": "MIT",
+  "devDependencies": {
+    "@swc/core": "^1.7.6",
+    "tsup": "^8.2.4",
+    "typescript": "^5.5.4",
+    "vite": "^5.3.5"
+  }
+}
