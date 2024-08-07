@@ -3,6 +3,9 @@
   "description": "Alows to manipulate the DOM in a more declarative way.",
   "version": "0.0.1",
   "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
